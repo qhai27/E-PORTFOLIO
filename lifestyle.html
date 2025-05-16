@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Lifestyle - Khairunniza</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/lifestyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">KHAIRUNNIZA</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Profile</a></li>
+                <li><a href="lifestyle.html" class="active">Lifestyle</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="lifestyle-hero">
+            <h1>My Lifestyle</h1>
+            <p>Exploring the balance between technology and creativity</p>
+        </section>
+
+        <section class="interests">
+            <div class="interest-tabs">
+                <button class="tab-btn active" data-tab="tech">Tech Enthusiast</button>
+                <button class="tab-btn" data-tab="art">Creative Corner</button>
+                <button class="tab-btn" data-tab="learning">Professional Growth</button>
+            </div>
+
+            <div class="tab-content active" id="tech">
+                <h2>Tech Enthusiast</h2>
+                <div class="tech-grid">
+                    <div class="tech-card">
+                        <i class="fas fa-code"></i>
+                        <h3>Coding Projects</h3>
+                        <p>Regularly working on personal coding projects to enhance my skills in Java and web development.</p>
+                    </div>
+                    <div class="tech-card">
+                        <i class="fas fa-shield-alt"></i>
+                        <h3>Cybersecurity</h3>
+                        <p>Studying network security and risk assessment to expand my IT expertise.</p>
+                    </div>
+                    <div class="tech-card">
+                        <i class="fas fa-robot"></i>
+                        <h3>Emerging Tech</h3>
+                        <p>Exploring AI and machine learning concepts through online courses.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content" id="art">
+                <h2>Creative Corner</h2>
+                <div class="art-content">
+                    <div class="art-text">
+                        <p>When I'm not coding, I express my creativity through portrait drawings and mural art. My artistic work helps me maintain balance and brings a unique perspective to my technical projects.</p>
+                        <p>I accept commissioned projects and enjoy collaborating with clients to bring their visions to life.</p>
+                        <a href="gallery.html" class="btn">View My Art Gallery</a>
+                    </div>
+                    <div class="art-image">
+                        <img src="images/105.jpg" alt="Artwork sample">
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content" id="learning">
+                <h2>Professional Growth</h2>
+                <div class="learning-content">
+                    <div class="learning-item">
+                        <h3>Currently Learning</h3>
+                        <ul>
+                            <li>Advanced JavaScript frameworks</li>
+                            <li>Network security best practices</li>
+                            <li>UI/UX design principles</li>
+                        </ul>
+                    </div>
+                    <div class="learning-item">
+                        <h3>Reading List</h3>
+                        <ul>
+                            <li>Clean Code by Robert C. Martin</li>
+                            <li>Designing Data-Intensive Applications</li>
+                            <li>The Creative Habit by Twyla Tharp</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="social-feed">
+            <h2>Follow My Journey</h2>
+            <div class="social-container">
+                <!-- Instagram feed placeholder -->
+                <div class="social-card">
+                    <i class="fab fa-instagram"></i>
+                    <p>Follow me on Instagram for updates on my artwork and tech projects</p>
+                    <a href="https://www.instagram.com/qhaii.anuar/" class="btn">@qhaii.anuar</a>
+                </div>
+                <!-- GitHub feed placeholder -->
+                <div class="social-card">
+                    <i class="fab fa-github"></i>
+                    <p>Check out my coding projects on GitHub</p>
+                    <a href="https://github.com/qhai27" class="btn">github.com/qhai27</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="poll-section">
+            <h2>Which technology should I explore next?</h2>
+            <div class="poll">
+                <div class="poll-option">
+                    <input type="radio" id="option1" name="tech-poll" value="react-native">
+                    <label for="option1">React Native</label>
+                </div>
+                <div class="poll-option">
+                    <input type="radio" id="option2" name="tech-poll" value="python">
+                    <label for="option2">Python</label>
+                </div>
+                <div class="poll-option">
+                    <input type="radio" id="option3" name="tech-poll" value="cloud">
+                    <label for="option3">Cloud Computing</label>
+                </div>
+                <button class="poll-submit">Vote</button>
+            </div>
+            <div class="poll-results" style="display: none;">
+                <h3>Poll Results</h3>
+                <div class="result-bars">
+                    <!-- Results in JavaScript -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="contact-info">
+            <p><i class="fas fa-envelope"></i> qairunniza@gmail.com</p>
+            <p><i class="fas fa-phone"></i> 019-4242841</p>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2024 Khairunniza Binti Khairol Anuar. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/lifestyle.js"></script>
+</body>
+</html>
