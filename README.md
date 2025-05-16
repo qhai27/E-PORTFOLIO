@@ -9,6 +9,10 @@ This is a personal portfolio website for Khairunniza Binti Khairol Anuar, showca
 - **Gallery Page:** Art portfolio, IT projects, certifications, and project demo videos.
 - **Interactive Elements:** Tab navigation, animated skill bars, poll with local storage, and lightbox gallery.
 
+## Video Demo 
+<video src="path/to/video.mp4" controls width="600">
+</video>
+
 ## Project Structure
 
 ```
