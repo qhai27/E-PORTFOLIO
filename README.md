@@ -10,7 +10,7 @@ This is a personal portfolio website for Khairunniza Binti Khairol Anuar, showca
 - **Interactive Elements:** Tab navigation, animated skill bars, poll with local storage, and lightbox gallery.
 
 ## Video Demo 
-<video src="path/to/video.mp4" controls width="600">
+<video src="images/VIDEO E-PORTFOLIO DEMO.mp4" controls width="600">
 </video>
 
 ## Project Structure
