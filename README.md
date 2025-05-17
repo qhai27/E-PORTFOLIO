@@ -1,6 +1,6 @@
 # Khairunniza's Portfolio Website
+This is a personal portfolio website for **Khairunniza Binti Khairol Anuar (291531)**, showcasing profile, lifestyle, gallery of artworks, IT projects, and certifications.
 
-This is a personal portfolio website for Khairunniza Binti Khairol Anuar, showcasing profile, lifestyle, gallery of artworks, IT projects, and certifications.
 
 ## Features
 
